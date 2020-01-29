@@ -8,7 +8,6 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "prepublishOnly": "run-s build",
-    "prepack": "run-s build",
     "build": "rollup -c",
     "prettify": "yarn pretty-quick",
     "test": "jest",
